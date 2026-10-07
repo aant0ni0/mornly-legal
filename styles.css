@@ -20,6 +20,18 @@ main {
   padding: 64px 0;
 }
 
+.legal-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0 8px 20px;
+  font-size: 0.9rem;
+}
+
+.legal-nav strong {
+  color: #18201b;
+}
+
 header {
   padding: 40px;
   border: 1px solid #e1ddcd;
@@ -94,5 +106,9 @@ footer {
 
   section {
     padding-top: 24px;
+  }
+
+  .legal-nav {
+    justify-content: flex-start;
   }
 }
